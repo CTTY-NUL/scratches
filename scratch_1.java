@@ -367,6 +367,7 @@ class Scratch {
 
 
     public static String[] subdirectoriesinpath2array(String path) {
+        //deze ook geschikt maken voor files, en files+folders
 //        String[] aFolders = subdirectoriesinpath2array(sPath1);
         File file = new File(path);
         String[] directories = file.list(new FilenameFilter() {
@@ -442,6 +443,10 @@ class Scratch {
         return response;
 
     }
+
+
+
+
 
 
 }

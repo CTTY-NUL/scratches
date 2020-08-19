@@ -1,0 +1,15 @@
+Scratch files zijn java test files waar je stukjes code in kan opslaan zodat je ze altijd kan copypasten
+
+Je ziet ze links in de lijst onder Scratches and Consoles
+
+Scratch files kan je gewoon aanmaken met (in de file tree) Rechtermuisknop - New - New Scratch file
+
+Scratch buffers, zoals deze, zijn tekstbestandjes (geen uitvoerbare code dus!) voor notities voor jezelf
+
+Voor het aanmaken van Scratch buffers is geen knop dus je moet Ctrl-Shift-A (Command-Shift-A op de Macintosh) drukken en dan zoeken naar "scratch" of "buffer"
+en dan New Scratch Buffer aanklikken
+
+https://www.jetbrains.com/help/idea/scratches.html#
+
+met rechtermuisknop op het tabblad kan je ze hernoemen
+

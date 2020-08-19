@@ -1,0 +1,68 @@
+2does:
+------
+* Shift+F1 zou moeten werken maar dan moet ik wat installeren
+
+* Default en optional parameter values in methods leren namaken
+   Ik begrijp niet waarom Java geen default parameter values kent en je die functionaliteit moet gaan namaken.
+   In AutoIt doe je gewoon Function Functienaam(parameter1 = "standaardwaarde")
+   https://stackoverflow.com/a/19719701
+
+Problemen en oplossingen:
+-------------------------
+Als je je mailadres private heb gezet en hij daarom zegt: push declined due to email privacy restrictions https://stackoverflow.com/a/44099011
+
+Onthouden:
+----------
+spring.jpa.hibernate.ddl-auto=create
+spring.datasource.url=jdbc:postgresql://localhost:5432/test
+spring.datasource.username=postgres
+spring.datasource.password=test
+server.port=8088
+
+
+
+pgadmin master password = banaan
+database user: postgres
+database pass: test
+
+server.port=8081
+
+
+* Strings vergelijken met .equals() i.p.v. ==
+  Dus niet:
+    if (temp == "Registrars."){}
+  Maar:
+    if (temp.equals("Registrars.")){}
+
+Trucjes:
+--------
+* op naam variable gaan staan, shift-F6, naam veranderen en dan past ie em overal in 1x aan
+
+* in het menu Code -> Reformat code (ctrl-alt-L) zorgt voor correcte indentatie enzo
+
+* control-Q geeft meer info
+
+* In 1 oogopslag zien welke methods er in een class zitten? gebruik het Structure tabblad! Ik heb het nu naar rechts gesleept
+  zodat ik het tegelijk met het Project tabblad open kan hebben.
+
+* Control click op brengt me naar de Java code
+
+Autocomplete:
+-------------
+*fori en dan Tab = for loop
+
+*psvm en dan Tab = main method
+
+Apache Commons
+---------------
+https://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient
+https://www.jetbrains.com/help/idea/working-with-module-dependencies.html
+
+.zip gedownload van apache commons
+
+projectmap geopend en daar een /lib/ map in gemaakt
+
+in IntelliJ in het File menu naar Project Structure
+Dan naar het Dependencies tabblad
+Daar op het + teken geklikt en gekozen voor "JARs or Directories"
+daar de /lib/ Folder aangewezen, in het volgende schermpje was alles aangevinkt en heb ik op OK gedrukt

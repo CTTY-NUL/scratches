@@ -1,0 +1,37 @@
+With System.out.println(e) you only know what exception has been thrown
+
+    java.lang.UnsupportedOperationException: Not yet implemented
+
+With e.printStackTrace() you also know what caused it (line numbers + call stack)
+
+    java.lang.UnsupportedOperationException: Not yet implemented
+    at javaapplication27.Test1.test(Test1.java:27)
+    at javaapplication27.Test1.main(Test1.java:19)
+
+---------------------------------------------------------------------------------------
+
+public static void main(String[] args){
+    try {
+        test();
+    } catch (UnsupportedOperationException e) {
+        System.out.println(e);
+        e.printStackTrace();
+    }
+}
+
+private static void test() {
+    throw new UnsupportedOperationException("Not yet implemented");
+}
+
+----------------------------------------------------------------------------------
+
+Ik kan gewoon aan t eind van de method declaratie "throws IOException {}" toevoegen
+
+Ik kan ook proberen bij t aanroepen van de method de errorhandling te doen
+try {
+    savefile(filename, playernames, playerscores);
+} catch (IOException exception) {
+    exception.printStackTrace();
+}
+
+ik kan ook gewoon ergens in de code zeggen: "throw new IOException("");"
